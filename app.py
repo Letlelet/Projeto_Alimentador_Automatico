@@ -7,7 +7,7 @@ import sqlite3
 app = Flask(__name__)
 
 
-DB = 'bomba.db'
+DB = 'dados.db'
 
 def init_db():
     with sqlite3.connect(DB) as con:
